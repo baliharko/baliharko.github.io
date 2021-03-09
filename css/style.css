@@ -31,7 +31,7 @@ nav {
 .window {
   background-color: var(--primary-color);
   width: 900px;
-  margin: 100px auto;
+  margin: 80px auto;
   border-radius: 15px;
 }
 
@@ -80,7 +80,7 @@ li {
   margin: 30px auto 30px auto;
   width: 30em;
   border-radius: 300px;
-  filter: grayscale();
+  /* filter: grayscale(); */
 }
 
 .contact-list {
