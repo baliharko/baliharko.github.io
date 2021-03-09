@@ -1,0 +1,114 @@
+:root {
+  --primary-color: #f5f1ed;
+  --links-color: black; /* #355070 */
+  --text-color: #2b333d;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+  text-align: center;
+  margin: 15px;
+  background: white;
+  background: linear-gradient(to top right, var(--primary-color), white);
+  color: var(--text-color);
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: 500;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  color: var(--links-color);
+}
+
+nav {
+  margin-bottom: 4em;
+}
+
+.window {
+  background-color: var(--primary-color);
+  width: 50%;
+  margin: 100px auto;
+  padding: 100px;
+  padding-top: 50px;
+  border-radius: 15px;
+}
+
+.bg-lines{
+  background: url(../images/bg-lines.png);
+  background-repeat: no-repeat;
+  background-position: -10rem;
+}
+
+p.description {
+  display: block;
+  width: 40em;
+  margin: auto;
+  line-height: 1.6em;
+  text-align: left;
+  word-spacing: 0.3em;
+}
+
+li {
+  margin: 20px auto;
+}
+
+.nav-item {
+  text-decoration: none;
+  color: var(--links-color);
+  margin: 30px 30px;
+}
+
+.nav-item:hover {
+  color: dimgray;
+}
+
+.img-profile {
+  display: block;
+  margin: 30px auto 30px auto;
+  width: 30em;
+  border-radius: 300px;
+  filter: grayscale();
+}
+
+.contact-list {
+  width: 40em;
+  margin: auto;
+  list-style: none;
+  text-align: left;
+}
+
+.contact-list ul {
+  list-style: none;
+}
+
+.mailto span,
+.phone span {
+  font-weight: bold;
+  font-size: 28px;
+  margin-left: -2px;
+  margin-right: 10px;
+  vertical-align: -4px;
+  color: black;
+}
+
+.phone span {
+  font-size: 20px;
+  display: none;
+}
+
+.github img {
+  width: 22px;
+  margin-right: 6px;
+}
+
+.github span {
+  vertical-align: 6px;
+}
+
+.location {
+  padding: 20px;
+}
