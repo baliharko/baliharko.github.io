@@ -4,10 +4,17 @@
   --text-color: #2b333d;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
 body {
   font-family: "Noto Sans", sans-serif;
   text-align: center;
-  margin: 15px;
+  /* margin: 15px; */ 
+  padding: 15px;
   background: white;
   background: linear-gradient(to top right, var(--primary-color), white);
   color: var(--text-color);
