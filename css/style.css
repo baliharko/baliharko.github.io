@@ -71,7 +71,8 @@ li {
   margin: 30px 30px;
 }
 
-.nav-item:hover {
+.nav-item:hover,
+footer a:hover {
   color: dimgray;
 }
 
