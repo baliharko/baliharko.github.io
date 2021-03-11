@@ -1,19 +1,18 @@
-:root {
-  --primary-color: #f5f1ed;
-  --links-color: black; /* #355070 */
-  --text-color: #2b333d;
-}
-
 * {
   margin: 0;
   padding: 0;
   list-style: none;
 }
 
+:root {
+  --primary-color: #f5f1ed;
+  --links-color: black; /* #355070 */
+  --text-color: #2b333d;
+}
+
 body {
-  font-family: "Noto Sans", sans-serif;
+  font-family: "Source Code Pro", monospace;
   text-align: center;
-  /* margin: 15px; */ 
   padding: 15px;
   background: white;
   background: linear-gradient(to top right, var(--primary-color), white);
@@ -21,6 +20,7 @@ body {
 }
 
 h1 {
+  font-family: 'Bebas Neue', cursive;
   font-size: 2.5em;
   font-weight: 500;
   color: black;
@@ -64,8 +64,9 @@ p.description {
   width: 40em;
   margin: auto;
   line-height: 1.6em;
+  font-size: 14px;
   text-align: left;
-  word-spacing: 0.3em;
+  word-spacing: 0.2em;
 }
 
 li {
@@ -78,6 +79,7 @@ li {
   margin: 30px 30px;
 }
 
+a:hover,
 .nav-item:hover,
 footer a:hover {
   color: dimgray;
@@ -132,15 +134,13 @@ footer a:hover {
 
 .line-bottom {
   width: 700px;
-}
-
-footer hr {
   color: #f5f1ed;
+  margin: 12px auto;
 }
 
 footer p {
-  text-align: left;
   padding-left: 10em;
   font-size: x-small;
   padding-bottom: 20px;
+  text-align: left;
 }
