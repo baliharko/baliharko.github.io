@@ -11,7 +11,7 @@
 }
 
 html {
-  min-height: 100%;  
+  min-height: 100%;
   min-width: 100%;
   background: linear-gradient(to top right, var(--primary-color), white);
   background-size: cover;
@@ -25,7 +25,7 @@ body {
 }
 
 h1 {
-  font-family: 'Bebas Neue', cursive;
+  font-family: "Bebas Neue", cursive;
   font-size: 2.5em;
   font-weight: 500;
   color: #333333;
@@ -44,7 +44,8 @@ nav {
   background-color: var(--primary-color);
   width: 900px;
   margin: 5vh auto;
-  border-radius: 15px;
+  border-radius: 7px;
+  background-blend-mode: difference;
 }
 
 .window-content {
@@ -59,6 +60,15 @@ nav {
 
 .bg-lines {
   background: url(../images/bg-lines3.svg);
+  background-repeat: no-repeat;
+  background-position: -10rem -10rem;
+  border-radius: 10px;
+  background-size: 450px;
+}
+
+.bg-lines-right {
+  background: url(../images/bg-lines2.svg);
+  border-radius: 7px;
   background-repeat: no-repeat;
   background-position: -10rem -10rem;
   background-size: 450px;
@@ -109,6 +119,19 @@ footer a:hover {
   list-style: none;
 }
 
+.contact-list a {
+  font-size: 14px;
+}
+
+.contact-list li {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+.contact-list p {
+  padding-bottom: 0;
+}
+
 .mailto span,
 .phone span {
   font-weight: bold;
@@ -117,6 +140,15 @@ footer a:hover {
   margin-right: 10px;
   vertical-align: -4px;
   color: black;
+}
+
+.mailto span {
+  margin-right: 20px;
+  padding-left: 4px;
+}
+
+.mail-row {
+  margin-bottom: 14px;
 }
 
 .phone span {
@@ -131,6 +163,24 @@ footer a:hover {
 
 .github span {
   vertical-align: 6px;
+}
+
+.portfolio {
+  display: flex;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.music-stuff {
+  margin-left: 3vh;
+}
+
+.linkedin-img {
+  margin-left: 4vh;
+}
+
+.linkedin-img img {
+  margin: 0;
 }
 
 .location {
@@ -148,4 +198,24 @@ footer p {
   font-size: x-small;
   padding-bottom: 20px;
   text-align: left;
+}
+
+iframe {
+  border-radius: 5px;
+}
+
+.projects img {
+  width: 25rem;
+}
+
+.projects .desc {
+  font-size: 12px;
+}
+
+.projects a {
+  line-height: 2.3em;
+}
+
+.projects li {
+  margin-bottom: 4vh;
 }
