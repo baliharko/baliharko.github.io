@@ -114,6 +114,10 @@ footer a:hover {
   text-align: left;
 }
 
+ul {
+  padding: 22px; 
+}
+
 .contact-list ul {
   list-style: none;
 }
@@ -180,10 +184,6 @@ footer a:hover {
 
 .linkedin-img img {
   margin: 0;
-}
-
-.location {
-  padding: 20px;
 }
 
 .line-bottom {
